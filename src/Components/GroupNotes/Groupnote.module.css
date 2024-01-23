@@ -1,0 +1,87 @@
+.noteContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.noteContainerTop {
+  width: 100%;
+  height: 80px;
+  background: #e8e8e8;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.noteContainerTop span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 5px 8px;
+  font-size: 23px;
+  margin-right: 20px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.noteContainerMiddle {
+  width: 100%;
+  height: 62%;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+.middleBox {
+  display: flex;
+  padding: 5px 50px 20px 35px;
+}
+.timeDate {
+  width: 20%;
+}
+.notes {
+  width: 80%;
+  overflow-y: auto;
+}
+.noteContainerMiddle::-webkit-scrollbar,
+.noteContainerBottom textarea::-webkit-scrollbar {
+  width: 12px;
+}
+.noteContainerMiddle::-webkit-scrollbar-thumb,
+.noteContainerBottom textarea::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 50px;
+}
+.noteContainerMiddle::-webkit-scrollbar-thumb:hover,
+.noteContainerBottom textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.noteContainerMiddle::-webkit-scrollbar-track,
+.noteContainerBottom textarea::-webkit-scrollbar-track {
+  background-color: #f7ecdc;
+}
+
+.noteContainerBottom {
+  display: flex;
+  height: 22%;
+  background: #e8e8e8;
+  padding: 10px 25px 10px 25px;
+}
+.noteContainerBottom textarea {
+  width: 100%;
+  height: 100%;
+  padding: 10px 25px 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  resize: none;
+}
+.noteContainerBottom textarea::placeholder {
+  font-size: 20px;
+  color: #9a9a9a;
+}
+.noteContainerBottom textarea::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.noteContainerBottom button img{
+  width: 24px;
+  height: 24px;
+  margin-top: 80px;
+  cursor: pointer;
+}

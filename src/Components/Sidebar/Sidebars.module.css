@@ -1,0 +1,75 @@
+.sidebarContainer {
+  width: 30%;
+  height: 100vh;
+  background: #ffffff;
+  padding: 12px 0 10px 15px;
+}
+.sidebarContainer h1 {
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.createNotesBox {
+  padding: 30px 0 10px 25px;
+}
+.createNotesBox button {
+  width: 85%;
+  height: 36px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.createNotesBox button img {
+  width: 20px;
+}
+
+.createdGroups {
+  width: 110%;
+  background: #fff;
+  padding-left: 10px;
+  height: 75vh;
+  overflow-y: auto;
+}
+.createdGroups ul li {
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  list-style: none;
+  margin-top: 24px;
+}
+.circle {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 5px 8px;
+  font-size: 23px;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.createdGroups::-webkit-scrollbar {
+  width: 12px;
+}
+.createdGroups::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 50px;
+}
+.createdGroups::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.createdGroups::-webkit-scrollbar-track {
+  background-color: #fff;
+}
